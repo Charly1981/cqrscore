@@ -7,7 +7,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import com.techbank.cqrs.core.events.BaseEvent;
-//Prueba
+
 public abstract class AggregateRoot {
 	protected String id;
 	private int version = -1;
