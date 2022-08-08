@@ -6,5 +6,7 @@ public interface EventSorucingHandler<T> {
 	void save(AggregateRoot aggregate);
 
 	T getById(String id);
+	
+	void republishedEvents();
 
 }
